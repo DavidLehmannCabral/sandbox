@@ -35,7 +35,6 @@
     border-top-right-radius: 1rem;
 }
 
-
 .sandwich .bottom {
     background-color: gray;
     height: 2rem;
@@ -43,4 +42,66 @@
     border-bottom-right-radius: 1rem;
 }
 
+.chipsBox {
+    position: relative;
+    margin: 0 auto;
+    background-color: orangered;
+    height: 10rem;
+    width: 10rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
 
+.chipsBox > .brand {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: white;
+    font-weight: bold;
+    font-size: 4rem;
+    font-family: cursive;
+}
+
+.chipsBox .chip {
+    width: 1.3rem;
+    height: 4rem;
+    background-color: yellow;
+    position: absolute;
+    top: -3.6rem;
+    z-index: -1;
+    border: 1px solid orange;
+}
+
+
+.chipsBox > .chip:nth-child(1) {
+    left: 1rem;
+    transform: rotate(18deg);
+}
+
+.chipsBox > .chip:nth-child(2) {
+    left: 3rem;
+    transform: rotate(-8deg);
+    top: -2.5rem;
+}
+
+.chipsBox > .chip:nth-child(3) {
+    left: 5rem;
+    transform: rotate(14deg);
+}
+
+.chipsBox > .chip:nth-child(4) {
+    left: 7rem;
+    transform: rotate(19deg);
+    top: -2.5rem;
+}
+
+.chipsBox > .chip:nth-child(5) {
+    left: 8rem;
+    transform: rotate(-12deg);
+}
+
+
+.chipsBox > .chip:nth-child(6) {
+    left: 96rem;
+    transform: rotate(-9deg);
+}
