@@ -1,0 +1,46 @@
+.sandwich {
+    margin: 10rem auto;
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+
+.sandwich .decorator {
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+.sandwich .salad {
+    background-color: green;
+}
+
+.sandwich .cheese {
+    background-color: darkgoldenrod;
+}
+
+.sandwich .cheese {
+    background-color: darkgoldenrod;
+}
+
+.sandwich .burguer {
+    background-color: brown;
+    border: 1px solid gray;
+}
+
+.sandwich .top {
+    background-color: gray;
+    height: 3rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+
+.sandwich .bottom {
+    background-color: gray;
+    height: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+
